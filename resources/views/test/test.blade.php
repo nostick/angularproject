@@ -4,7 +4,7 @@
     <div class='row'>
         <div class='col-md-6'>
             <!-- Box -->
-            <div class="box box-primary">
+            <div class="box box-success">
                 <div class="box-header with-border">
                     <h3 class="box-title">Randomly Generated Tasks</h3>
                     <div class="box-tools pull-right">
@@ -33,7 +33,7 @@
         </div><!-- /.col -->
         <div class='col-md-6'>
             <!-- Box -->
-            <div class="box box-primary">
+            <div class="box box-warning">
                 <div class="box-header with-border">
                     <h3 class="box-title">Second Box</h3>
                     <div class="box-tools pull-right">
