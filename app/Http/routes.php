@@ -16,7 +16,7 @@ Route::get('/', function () {
 });
 
 Route::get('admin', function () {
-    return view('admin_template');
+    return view('layouts.base');
 });
 
 /*
@@ -33,3 +33,5 @@ Route::get('admin', function () {
 Route::group(['middleware' => ['web']], function () {
     //
 });
+
+Route::get('test', 'TestController@index');
